@@ -71,4 +71,27 @@ return {
       require "custom.plugins.lspconfig"
     end,
   },
+  ['max397574/better-escape.nvim'] = {
+    config = function()
+    require("better_escape").setup()
+    end
+  },
+  ['preservim/tagbar'] = {
+    after = "nvim-lspconfig",
+    config = function()
+      require "custom.plugins.tagbar"
+    end,
+  },
+  ['ggandor/lightspeed.nvim'] = {
+  },
+  ['folke/todo-comments.nvim'] = {
+    config = function()
+      require "custom.plugins.todocomments"
+    end,
+  },
+  ['RRethy/vim-illuminate'] = {
+    config = function()
+      require "custom.plugins.illuminate"
+    end,
+  },
 }

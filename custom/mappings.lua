@@ -33,4 +33,16 @@ M.shade = {
   },
 }
 
+M.tagbar = {
+  n = {
+    ["<leader>t"] = {"<cmd> TagbarToggle <CR>", "   TagbarToggle"}
+  },
+}
+
+M.gitsigns = {
+  n = {
+    ["<leader>gcl"] = {"<cmd> Gitsigns toggle_current_line_blame <CR>", "   toggle current line blame"}
+  },
+}
+
 return M

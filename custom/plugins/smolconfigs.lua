@@ -30,4 +30,18 @@ M.autosave = function()
   end
 end
 
+M.lightspeed = function()
+  local present, lightspeed = pcall(require, "autosave")
+  if present then
+    lightspeed.setup()
+  end
+end
+
+M.todocomments = function()
+  local present, todocomments = pcall(require, "todo-comments")
+  if present then
+    todocomments.setup()
+  end
+end
+
 return M
