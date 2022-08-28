@@ -45,4 +45,10 @@ M.gitsigns = {
   },
 }
 
+M.oscyank = {
+  v = {
+    ["<leader>c"] = {"<cmd> OSCYank <CR>", "use osc yank copy"}
+  },
+}
+
 return M

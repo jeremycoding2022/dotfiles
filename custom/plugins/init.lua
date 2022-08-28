@@ -94,4 +94,6 @@ return {
       require "custom.plugins.illuminate"
     end,
   },
+  ['ojroques/vim-oscyank'] = {
+  },
 }
